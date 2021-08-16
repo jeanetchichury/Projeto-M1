@@ -8,11 +8,11 @@ escolha.addEventListener("click", function choice(event){
     }
 
     if (decisao.includes (1)){
-        return window.location.replace("VN2.html")
+        return window.location.replace("VN1.html")
     }
 
     else {
-        return window.location.replace("VN1-game-over.html")
+        return window.location.replace("../index.html")
     }
 }
 )
