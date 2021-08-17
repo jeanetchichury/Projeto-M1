@@ -4,15 +4,15 @@ escolha.addEventListener("click", function choice(event){
     var decisao=prompt("Escolha entre 1 ou 2 (digite apenas números)")
     
     while (!decisao.includes(1) && !decisao.includes(2)){
-            decisao=prompt("escolha inválida, escolha entre 1 ou 2 (digite apenas números)")
+            decisao=prompt("Escolha entre 1 ou 2 (digite apenas números)")
     }
 
     if (decisao.includes (1)){
-        return window.location.replace("VN2.html")
+        return window.location.replace("VN2-game-over.html")
     }
-
+    
     else {
-        return window.location.replace("VN1-game-over.html")
+        return window.location.replace("VN3.html")
     }
 }
 )
