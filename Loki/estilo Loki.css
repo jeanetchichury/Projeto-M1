@@ -1,0 +1,40 @@
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    background-image: url(bgLoki.jpg);
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+section{
+    width: 50%;
+    border: 1px solid #161a1d;
+    text-align: justify;
+    padding: 0em 0.5em;
+    font-size: 1.14rem;
+    border-radius: 10px;
+    background-color: #161a1d;
+    color: whitesmoke;
+    margin-top: 150px;
+}
+
+
+.btn {
+    border: 1px solid #161a1d;
+    background-color: #a4161a;
+    color: whitesmoke;
+    padding: 0.4em;
+    border-radius: 10px;
+    font-size: 1.4rem;
+    transition: 0.5s;
+  }
+  .btn:hover {
+    background-color: #e5383b;
+  }
