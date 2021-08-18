@@ -8,7 +8,7 @@ escolha.addEventListener("click", function choice(event){
     }
 
     if (decisao.includes (1)){
-        return window.location.replace("VN1.html")
+        return window.location.replace("HdF1.html")
     }
 
     else {
