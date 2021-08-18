@@ -8,11 +8,11 @@ escolha.addEventListener("click", function choice(event){
     }
 
     if (decisao.includes (1)){
-        return window.location.replace("Loki3-game-over.html")
+        return window.location.replace("Loki-win.html")
     }
     
     else {
-        return window.location.replace("Loki-win.html")
+        return window.location.replace("Loki3-game-over.html")
     }
 }
 )
