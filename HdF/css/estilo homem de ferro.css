@@ -4,13 +4,20 @@ html, body{
 }
 
 body{
-    background-image: url(bgHdF.jpg);
+    background-image: url(../img/bgHdF.jpg);
     background-size: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
     
+}
+
+.game-over{
+    padding-left: 5%;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 30px;
+    margin-top: 0px;
 }
 
 section{
