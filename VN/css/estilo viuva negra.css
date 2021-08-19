@@ -4,7 +4,7 @@ html, body{
 }
 
 body{
-    background-image: url(bgviuvanegra.jpg);
+    background-image: url(../img/bgviuvanegra.jpg);
     background-size: 100%;
     display: flex;
     flex-direction: column;
