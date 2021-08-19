@@ -13,6 +13,13 @@ body{
     
 }
 
+.game-over{
+    padding-left: 5%;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 30px;
+    margin-top: 0px;
+}
+
 section{
     width: 50%;
     border: 1px solid #161a1d;
